@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temporizador em Tempo Real</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    #timer {
+      font-size: 48px;
+      color: #333;
+    }
+    #startButton {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="timer">00:00:00</div>
+  <button id="startButton">Iniciar Temporizador</button>
+  <script>
+    // Registra o Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker registrado com sucesso:', registration);
+        })
+        .catch(function(error) {
+          console.error('Erro ao registrar o Service Worker:', error);
+        });
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
