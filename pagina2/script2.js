@@ -1,7 +1,7 @@
 function checkAnswer() {
     var answer = document.querySelector('input').value.trim().toLowerCase();
     
-    if (answer === 'insistentes') {
+    if (answer === 'persistência') {
       // Redirecionar para outra página após acertar a resposta
       window.location.href = '../pagina3/eyishgesniwe.html'; // Substitua "outra-pagina-resposta.html" pela URL da página de resposta correta
     } else {
