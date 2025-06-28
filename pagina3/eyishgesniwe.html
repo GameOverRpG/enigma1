@@ -14,15 +14,15 @@
       <img src="../assets/imagens/logo.png" alt="Imagem" class="centered-image">
     </div>
     <div class="question-box">
-      <img src="logo.png" alt="Imagem da Pergunta" class="question-image">
       <p class="question">
-        01010100 01100101 01110110 01100101 01100110 01101001 01110010 01110111 00100000 01111010 01110011 01100111 01101001 00100000 01100111 01110011 01110010 01110111 01101001 01101011 01111001 01101101 01111001 00100000 01101101 01110010 01110111 01101101 01110111 01111000 01101101 01110110 00100000 01110001 01100101 01101101 01110111
+       01110100 01100101 01110110 01100101 01100110 01101001 01110010 01110111 00100000 01111010 01110011 01100111 01101001 00100000 01100111 01110011 01110010 01110111 01101001 01101011 01111001 01101101 01111001 00100000 01101101 01110010 01110111 01101101 01110111 01111000 01101101 01110110 00100000 01010001 01100101 01101101 01110111
       </p>
       <input type="text" placeholder="Sua resposta...">
       <button onclick="checkAnswer()">Enviar</button>
       <p id="result"></p>
     </div>
-    <p class="response-text">VOCÊS TEM 24 HORAS</p>
+    <p class="response-text">VOCÊS TEM<span id="contador">carregando...</span></p>
+    <script src="../assets/relogio.js"></script>
   </div>
   <script src="script3.js"></script>
 </body>

@@ -3,7 +3,7 @@ function checkAnswer() {
     
     if (answer === 'mais') {
       
-      window.location.href = '../final/final.html'; 
+      window.location.href = '../final/xassdakakskaksda.html'; 
     } else {
      
       document.getElementById('result').textContent = 'Resposta incorreta!';

@@ -11,7 +11,7 @@ function atualizarContador() {
     if (restante <= 0) {
         contador.textContent = "Tempo esgotado!"
         setTimeout(() => {
-            window.location.href = "../final/tempo-esgotado.html";
+            window.location.href = "../final/esoiaheausiuo.html";
         }, 4000);
         return;
     }

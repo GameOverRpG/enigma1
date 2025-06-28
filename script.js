@@ -3,7 +3,7 @@ function checkAnswer() {
     
     if (answer === 'burros') {
       
-      window.location.href = 'pagina2/outra-pagina.html'; 
+      window.location.href = 'pagina2/asdaheeyskwe.html'; 
       
       document.getElementById('result').textContent = 'Resposta incorreta!';
     }
