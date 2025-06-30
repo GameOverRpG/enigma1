@@ -1,4 +1,4 @@
-const inicioGlobal = new Date("2025-06-29T01:52:00Z").getTime();
+const inicioGlobal = new Date("2025-06-29T23:00:00").getTime();
 const fimGlobal = inicioGlobal + 48 * 60 * 60 * 1000;
 
 function atualizarContador() {
